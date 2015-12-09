@@ -31,8 +31,9 @@ class ViewController: NSViewController {
     var task = NSTask()
     var pipe = NSPipe()
     
-    var path    = ""
-    var running = false;
+    var path      = ""
+    var caddyfile = ""
+    var running   = false;
     
     @IBOutlet weak var start_stop_button: NSButton!
     
@@ -42,11 +43,10 @@ class ViewController: NSViewController {
         //window.delegate = self
         
         // Set path to executable
-        path = String(NSBundle.mainBundle().URLForResource("caddy", withExtension: "")!)
-        path = path.stringByReplacingOccurrencesOfString(
-            "file://",
-            withString: "",
-            options: .RegularExpressionSearch)
+        self.path = String(NSBundle.mainBundle().pathForResource("caddy", ofType: "")!)
+        
+        // Set path to Caddyfile
+        self.caddyfile = String(NSBundle.mainBundle().pathForResource("Caddyfile", ofType: "")!)
         
         super.viewDidLoad()
 
@@ -68,7 +68,7 @@ class ViewController: NSViewController {
         self.pipe = NSPipe()
         self.task.launchPath = path
         self.task.standardOutput = pipe
-        self.task.arguments = []
+        self.task.arguments = ["-conf=\(self.caddyfile)"]
         self.task.launch()
         print("Launched Caddy")
     }
