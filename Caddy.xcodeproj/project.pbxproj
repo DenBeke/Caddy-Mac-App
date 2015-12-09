@@ -11,6 +11,8 @@
 		C7BF0D7D1C17792C004439C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF0D7C1C17792C004439C8 /* ViewController.swift */; };
 		C7BF0D7F1C17792C004439C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D7E1C17792C004439C8 /* Assets.xcassets */; };
 		C7BF0D821C17792C004439C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D801C17792C004439C8 /* Main.storyboard */; };
+		C7BF0D8A1C177BB0004439C8 /* caddy in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D891C177BB0004439C8 /* caddy */; settings = {ASSET_TAGS = (); }; };
+		C7BF0D8C1C188380004439C8 /* caddy-boxed.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D8B1C188380004439C8 /* caddy-boxed.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C7BF0D7E1C17792C004439C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BF0D811C17792C004439C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7BF0D831C17792C004439C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BF0D891C177BB0004439C8 /* caddy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = caddy; sourceTree = "<group>"; };
+		C7BF0D8B1C188380004439C8 /* caddy-boxed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caddy-boxed.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		C7BF0D791C17792C004439C8 /* Caddy */ = {
 			isa = PBXGroup;
 			children = (
+				C7BF0D891C177BB0004439C8 /* caddy */,
+				C7BF0D8B1C188380004439C8 /* caddy-boxed.png */,
 				C7BF0D7A1C17792C004439C8 /* AppDelegate.swift */,
 				C7BF0D7C1C17792C004439C8 /* ViewController.swift */,
 				C7BF0D7E1C17792C004439C8 /* Assets.xcassets */,
@@ -118,7 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BF0D8A1C177BB0004439C8 /* caddy in Resources */,
 				C7BF0D7F1C17792C004439C8 /* Assets.xcassets in Resources */,
+				C7BF0D8C1C188380004439C8 /* caddy-boxed.png in Resources */,
 				C7BF0D821C17792C004439C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
