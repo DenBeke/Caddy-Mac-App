@@ -13,6 +13,7 @@
 		C7BF0D821C17792C004439C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D801C17792C004439C8 /* Main.storyboard */; };
 		C7BF0D8A1C177BB0004439C8 /* caddy in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D891C177BB0004439C8 /* caddy */; settings = {ASSET_TAGS = (); }; };
 		C7BF0D8C1C188380004439C8 /* caddy-boxed.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BF0D8B1C188380004439C8 /* caddy-boxed.png */; settings = {ASSET_TAGS = (); }; };
+		C7DD13221C188BC70071888C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C7DD13211C188BC70071888C /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C7BF0D831C17792C004439C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BF0D891C177BB0004439C8 /* caddy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = caddy; sourceTree = "<group>"; };
 		C7BF0D8B1C188380004439C8 /* caddy-boxed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caddy-boxed.png"; sourceTree = "<group>"; };
+		C7DD13211C188BC70071888C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C7BF0D6E1C17792C004439C8 = {
 			isa = PBXGroup;
 			children = (
+				C7DD13211C188BC70071888C /* README.md */,
 				C7BF0D791C17792C004439C8 /* Caddy */,
 				C7BF0D781C17792C004439C8 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DD13221C188BC70071888C /* README.md in Sources */,
 				C7BF0D7D1C17792C004439C8 /* ViewController.swift in Sources */,
 				C7BF0D7B1C17792C004439C8 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				C7BF0D881C17792C004439C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
